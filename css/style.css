@@ -163,6 +163,8 @@ ul {
 }
 
 .show-final-score-message {
+    display: -webkit-flex; /* Safari */
+    display: -ms-flexbox; /* IE 10 */
     display: flex;
 }
 
