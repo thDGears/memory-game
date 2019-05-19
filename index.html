@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META DATA -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="X-UA-Compatible" content="ie=edge">
+	<title>Memory Game | Mohamed Yassine Laggoun</title>
+	<meta name="author" content="Mohamed Yassine Laggoun">
+	<meta name="description" content="Try to match the cards">
+	<meta name="keywords" content="memory game, game, matching game , front end, hire, freelance, udacity project">
+	<!-- STYLING -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+    
+<body>
+    
+    <div class="container flex-columns-container">
+        
+        <header class="header">
+            <h1 class="title">Memory Game</h1>
+        </header>
+        
+        <!-- MAIN CONTENT -->
+        <main class="game-content flex-columns-container">
+
+            <!-- SCORE -->
+            <div class="score-panel">
+                <div class="rank score-item">
+                    <div class="moves"><span>0</span> MOVES</div>
+                    <div class="score">
+                        <ul>
+                            <li class="star"><i class="fa fa-star"></i></li>
+                            <li class="star"><i class="fa fa-star"></i></li>
+                            <li class="star"><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="time-counter score-item">
+                    <span class="hours">00</span>
+                    :
+                    <span class="minutes">00</span>
+                    :
+                    <span class="seconds">00</span>
+                </div>
+                <div class="replay score-item">
+                    <a><i class="fa fa-refresh"></i></a>
+                </div>
+            </div>
+            
+            <!-- THE GAME -->
+            <ul class="deck flex-rows-container">
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+                <li class="cards flex-columns-container">
+                    <i></i>
+                </li>
+            </ul>
+        </main>
+        
+    </div>
+
+    <div class="final-score-message">
+        <div class="win">
+            <a class="close"><i class="fa fa-window-close"></i></a>
+            <br />
+            <h2 class="congrats">Congratulations!</h2>
+            <p class="score-message"></p>
+            <br />
+            <div>
+                Your final score is: 
+                <ul class="score-list">
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                    <li class="star"><i class="fa fa-star"></i></li>
+                </ul>
+                out of 3.
+            </div>
+            <div class="replay-btn-container">
+                <a class="replay-btn">Replay</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- SCRIPTING -->
+    <!-- <script src="js/Myapp.js"></script> -->
+
+    <script src="js/soft.js"></script>
+</body>
+</html> 
+      

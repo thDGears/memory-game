@@ -1,0 +1,135 @@
+@media only screen and (min-width: 253px) {
+	.rank > div {
+		font-size: 1.3rem;
+	}
+
+	.header {
+		margin-bottom: 1em;
+	}
+
+	.title {
+    	font-size: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 289px) {
+	.win {
+		padding: 2em;
+	}
+}
+
+@media only screen and (min-width: 381px) {
+	.deck .cards {
+		width: 70px;
+		height: 70px;
+	}
+
+	.congrats {
+		font-size: 1.5rem;
+	}
+
+	.win {
+		font-size: 1.1rem;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	.header {
+		margin-bottom: 1.7em;
+	}
+
+	.title {
+		font-size: 2rem;
+	}
+
+	.deck .cards {
+		width: 90px;
+		height: 90px;
+	}
+
+	.deck .cards.show {
+	    font-size: 1.8rem;
+	}
+
+	.close {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (min-width: 592px) {
+	.title {
+		font-size: 2.4rem;
+	}
+
+	/***** START SCORE PANEL STYLING *****/
+	.score-item {
+		display: inline-block;
+	}
+
+	.rank {
+		float: left;
+		margin-left: 2.5em;
+	}
+
+	.replay {
+		float: right;
+		margin-right: 2.5em;
+	}
+	/***** END STYLING FOR SCORE PANEL *****/
+
+	.deck .cards {
+		width: 110px;
+		height: 110px;
+	}
+}
+
+@media only screen and (min-width: 703px) {
+	.deck .cards {
+		width: 120px;
+		height: 120px;
+	}
+}
+
+@media only screen and (min-width: 758px) {
+	.container {	
+	    width: 682px;
+	}
+
+	.deck .cards {
+		width: 132px;
+		height: 132px;
+	}
+
+	.deck .cards.show {
+	    font-size: 2rem;
+	}
+
+	.congrats {
+		font-size: 1.8rem;
+	}
+
+	.win {
+		font-size: inherit;
+	}
+}
+
+@media only screen and (min-width: 869px) {
+	.container {	
+	    width: 600px;
+	}
+
+	.deck {
+		justify-content: center;
+		height: 570px;
+	}
+
+	.deck .cards {
+		width: 110px;
+		height: 110px;
+		margin: 8px;
+	}
+
+	.deck .cards.show {
+	    font-size: 1.8rem;
+	}
+}
